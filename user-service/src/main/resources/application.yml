@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: user-service
+server:
+  port: 8090
+eureka:
+  client:
+    service-url:
+      defaultZone: http://tiger:tiger@localhost:8081/eureka

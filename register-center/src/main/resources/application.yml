@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: register-center
+server:
+  port: 8081
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8081/eureka
+    fetch-registry: false
+    register-with-eureka: false
+  server:
+    enable-self-preservation: false
+security:
+  user:
+    name: tiger
+    password: tiger
