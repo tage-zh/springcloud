@@ -10,4 +10,4 @@ ENV JAVA_OPTS              "-Xms512m -Xmx512m"
 
 COPY target/register-center-0.0.1-SNAPSHOT.jar /usr/local/spring.jar
 
-CMD ["/bin/sh", "-c", "java $JAVA_OPTS -Dfile.encoding=UTF-8 -jar /usr/local/spring.jar]
+CMD ["/bin/sh", "-c", "java $JAVA_OPTS -Dfile.encoding=UTF-8 -jar /usr/local/spring.jar"]
