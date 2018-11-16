@@ -6,6 +6,4 @@ server:
 eureka:
   client:
     service-url:
-      defaultZone: http://tiger:tiger@172.17.0.1:8081/eureka
-  instance:
-    prefer-ip-address: true
+      defaultZone: http://tiger:tiger@registercenter:8081/eureka
