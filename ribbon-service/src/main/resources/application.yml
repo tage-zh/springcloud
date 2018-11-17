@@ -1,0 +1,12 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: ribbon-service
+eureka:
+  client:
+    service-url:
+      defaultZone: http://tiger:tiger@registercenter:8081/eureka
+ribbon:
+  eureka:
+    enabled: true
