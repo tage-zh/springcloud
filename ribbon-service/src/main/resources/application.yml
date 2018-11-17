@@ -3,10 +3,25 @@ server:
 spring:
   application:
     name: ribbon-service
+  cloud:
+    loadbalancer:
+      retry:
+        enabled: true
 eureka:
   client:
     service-url:
       defaultZone: http://tiger:tiger@registercenter:8081/eureka
 ribbon:
+  ReadTimeout: 30
+  ConnectTimeout: 30
+  MaxAutoRetries: 1
+  MaxAutoRetriesNextServer: 1
   eureka:
     enabled: true
+#user-service:
+#  ribbon:
+#    ConnectTimeout: 250
+#    ReadTimeout: 1000
+#    OkToRetryOnAllOperations: true
+#    MaxAutoRetriesNextServer: 2
+#    MaxAutoRetries: 1

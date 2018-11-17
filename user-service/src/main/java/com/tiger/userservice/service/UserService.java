@@ -13,6 +13,12 @@ public class UserService {
 
     public String sayHello(){
         log.info("start hello");
+//        try {
+//            Thread.sleep(30000);
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
+        log.info("start end");
         return "Hello from "+ port;
     }
 }
