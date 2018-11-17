@@ -9,6 +9,7 @@
         <module name="register-center" />
         <module name="ribbon-service" />
         <module name="user-service" />
+        <module name="zuul-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,6 +17,7 @@
       <module name="ribbon-service" target="1.8" />
       <module name="springcloud" target="1.8" />
       <module name="user-service" target="1.8" />
+      <module name="zuul-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="Encoding">
@@ -23,6 +25,7 @@
     <file url="file://$PROJECT_DIR$/register-center" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ribbon-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/user-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zuul-service" charset="UTF-8" />
   </component>
   <component name="InspectionProjectProfileManager">
     <profile version="1.0">
@@ -37,6 +40,7 @@
         <option value="$PROJECT_DIR$/register-center/pom.xml" />
         <option value="$PROJECT_DIR$/user-service/pom.xml" />
         <option value="$PROJECT_DIR$/ribbon-service/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul-service/pom.xml" />
       </list>
     </option>
   </component>
@@ -46,6 +50,7 @@
       <module fileurl="file://$PROJECT_DIR$/ribbon-service/ribbon-service.iml" filepath="$PROJECT_DIR$/ribbon-service/ribbon-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud.iml" filepath="$PROJECT_DIR$/springcloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-service/user-service.iml" filepath="$PROJECT_DIR$/user-service/user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul-service/zuul-service.iml" filepath="$PROJECT_DIR$/zuul-service/zuul-service.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
@@ -451,6 +456,17 @@
         <root url="jar://$MAVEN_REPOSITORY$/com/netflix/servo/servo-internal/0.10.1/servo-internal-0.10.1-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: com.netflix.zuul:zuul-core:1.3.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: com.sun.jersey.contribs:jersey-apache-client4:1.19.1">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/contribs/jersey-apache-client4/1.19.1/jersey-apache-client4-1.19.1.jar!/" />
@@ -559,6 +575,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/commons-configuration/commons-configuration/1.8/commons-configuration-1.8-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: commons-io:commons-io:2.4">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.4/commons-io-2.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.4/commons-io-2.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.4/commons-io-2.4-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: commons-jxpath:commons-jxpath:1.3">
@@ -1362,6 +1389,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-netflix-ribbon/1.4.6.RELEASE/spring-cloud-starter-netflix-ribbon-1.4.6.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.cloud:spring-cloud-starter-netflix-zuul:1.4.6.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-netflix-zuul/1.4.6.RELEASE/spring-cloud-starter-netflix-zuul-1.4.6.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-netflix-zuul/1.4.6.RELEASE/spring-cloud-starter-netflix-zuul-1.4.6.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-netflix-zuul/1.4.6.RELEASE/spring-cloud-starter-netflix-zuul-1.4.6.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.springframework.cloud:spring-cloud-starter-ribbon:1.4.6.RELEASE">
