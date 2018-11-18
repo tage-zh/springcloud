@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/tage-zh/springcloud.git
+          search-paths: config-repo
+          username: tiger.zhao@gmail.com
+          password: Tage1985
+server:
+  port: 9010
