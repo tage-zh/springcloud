@@ -13,12 +13,12 @@ public class UserService {
     @Value("${server.port}")
     private String port;
 
-    @Value("${age}")
-    String age;
+//    @Value("${age}")
+//    String age;
 
     public String sayHello(){
         log.info("start hello");
         log.info("start end");
-        return "Hello from "+ port +":"+age;
+        return "Hello from "+ port +":"+port;
     }
 }
