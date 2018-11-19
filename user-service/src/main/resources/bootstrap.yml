@@ -8,7 +8,7 @@ spring:
         service-id: config-service
       label: master
       profile: prod
-      uri: http://registercenter:9010
+#      uri: http://registercenter:9010
 eureka:
   client:
     service-url:
