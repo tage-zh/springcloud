@@ -5,9 +5,11 @@ spring:
     config:
       discovery:
         enabled: true
-        service-id: CONFIG-SERVER
-      profile: dev
+        service-id: config-service
       label: master
-      uri: http://localhost:9010/
-server:
-  port: 8090
+      profile: prod
+      uri: http://registercenter:9010
+eureka:
+  client:
+    service-url:
+      defaultZone: http://tiger:tiger@registercenter:8081/eureka

@@ -7,22 +7,18 @@ import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.stereotype.Component;
 
 @Component
+@RefreshScope
 public class UserService {
     private Log log = LogFactory.getLog(this.getClass());
     @Value("${server.port}")
     private String port;
 
-    @Value("${sang}")
-    String sang;
+    @Value("${age}")
+    String age;
 
     public String sayHello(){
         log.info("start hello");
-//        try {
-//            Thread.sleep(30000);
-//        } catch (InterruptedException e) {
-//            e.printStackTrace();
-//        }
         log.info("start end");
-        return "Hello from "+ port +": ：："+sang;
+        return "Hello from "+ port +":"+age;
     }
 }
