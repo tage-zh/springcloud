@@ -3,3 +3,6 @@
 #    name: app
 server:
   port: 8090
+management:
+  security:
+    enabled: false

@@ -7,6 +7,7 @@ import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.stereotype.Component;
 
 @Component
+@RefreshScope
 public class UserService {
     private Log log = LogFactory.getLog(this.getClass());
     @Value("${server.port}")
