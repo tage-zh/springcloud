@@ -6,7 +6,7 @@ FROM java
 
 MAINTAINER tiger.zhao "117676896@qq.com"
 
-ENV JAVA_OPTS              "-Xms512m -Xmx512m"
+ENV JAVA_OPTS              "-Xms128m -Xmx128m"
 
 COPY target/config-service-0.0.1-SNAPSHOT.jar /usr/local/spring.jar
 
