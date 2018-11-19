@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: user-service
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: CONFIG-SERVER
+      profile: dev
+      label: master
+      uri: http://localhost:9010/
+server:
+  port: 8090
