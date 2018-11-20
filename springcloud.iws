@@ -57,7 +57,7 @@
         <entry file="file://$PROJECT_DIR$/config-repo/user-service-prod.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="20">
-              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -448,12 +448,12 @@
       <workItem from="1542553944119" duration="3492000" />
       <workItem from="1542590743643" duration="11227000" />
       <workItem from="1542643809428" duration="2111000" />
-      <workItem from="1542678275621" duration="1223000" />
+      <workItem from="1542678275621" duration="1317000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52886000" />
+    <option name="totallyTimeSpent" value="52980000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -865,7 +865,7 @@
     <entry file="file://$PROJECT_DIR$/config-repo/user-service-prod.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
         </state>
       </provider>
     </entry>
