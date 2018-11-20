@@ -6,3 +6,13 @@ server:
 management:
   security:
     enabled: false
+spring:
+  cloud:
+    bus:
+      trace:
+        enabled: true
+  rabbitmq:
+    host: 47.105.60.109
+    port: 5672
+    username: tiger
+    password: tiger
